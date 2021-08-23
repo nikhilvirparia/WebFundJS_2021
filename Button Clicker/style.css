@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav {
+    width: 700px;
+    background-color: #cccccc;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#title {
+    display: flex;
+    align-items: center;
+}
+
+#search {
+    border: 2px solid black;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+#login {
+    width: 50px;
+    color: white;
+    background-color: #2b78e4;
+    border: 3px solid black;
+    border-radius: 3px;
+    box-shadow: 2px 2px black;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    color: black
+}
+
+.cardbox1 {
+    margin: 20px;
+    height: 170px;
+    width: 432px;
+    border: 2px solid black;
+    border-radius: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cardbox2 {
+    margin: 20px;
+    height: 170px;
+    width: 432px;
+    border: 2px solid black;
+    border-radius: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cardinfo {
+    margin-left: 10px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.likes {
+    margin-top: 20px;
+    padding: 3px 10px;
+    background-color: #fed966;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+.cardbox2 h3 {
+    margin-left: 20px;
+}
+input {
+    width: 200px;
+}
+
+.addbox {
+    height: 130px;
+    width: 240px;
+    margin: 20px 10px 10px 10px;
+    padding: 12px;
+    border: 2px solid black;
+}
+
+#btn {
+    padding: 5px 45px;
+    margin: 10px 17px;
+    background-color: #93c47c;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}
