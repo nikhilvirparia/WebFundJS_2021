@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>Button Clicker</title>
 </head>
 
@@ -20,19 +19,41 @@
         </div>
 
         <div class="container">
+
             <div class="container1">
-                <div class="cardbox1">
+
+                <div class="box">
+
                     <div class="cardinfo">
                         <h1>ninja</h1>
                         <em>noun</em>
                         <br />
                         <p>Plural: <em>ninjas</em>
-                            <button class="likes" onclick="alert('Ninja was liked')">13 likes</button>
+                            <button class="likes" onclick="popupbox()">13 likes</button>
                         </p>
                     </div>
                     <h3>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></h3>
                 </div>
-                <div class="cardbox2">
+
+                <div class="box">
+
+                    <div class="cardinfo">
+                        <div class="left">
+                            <h1>ninja</h1>
+                            <em>noun</em>
+                            <br />
+                            <p>Plural: <em>ninjas</em>
+                                <button class="likes" onclick="popupbox()">13 likes</button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right">
+                    <h3>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus
+                    </h3>
+                    </div>
+                </div>
+
+                <!-- <div class="box">
                     <div class="cardinfo">
                         <h1>ninja</h1>
                         <em>noun</em>
@@ -41,8 +62,11 @@
                             <button class="likes" onclick="alert('Ninja was liked')">37 likes</button>
                         </p>
                     </div>
-                    <h3>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</h3>
-                </div>
+                    <div class="cardinfo">
+                        <h3>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus
+                        </h3>
+                    </div>
+                </div> -->
             </div>
             <div class="addbox">
                 <h2>Dojanary is defined by YOU</h2>
@@ -50,6 +74,8 @@
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -7,3 +7,7 @@ function hide(element) {
 function logout(element) {
     element.innerText = "Logout";
 }
+
+function popupbox() {
+    alert('Ninja was liked')
+}

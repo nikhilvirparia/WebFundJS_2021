@@ -5,12 +5,6 @@
     box-sizing: border-box;
 }
 
-body {
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
 .Wrapper {
     display: flex;
     flex-direction: column;
@@ -27,6 +21,7 @@ body {
 }
 
 
+
 #title {
     display: flex;
     align-items: center;
@@ -35,8 +30,6 @@ body {
 #search {
     border: 2px solid black;
     border-radius: 3px;
-    display: flex;
-    align-items: center;
 }
 
 #login {
@@ -52,10 +45,9 @@ body {
 .container {
     display: flex;
     justify-content: space-between;
-    color: black
 }
 
-.cardbox1 {
+.box {
     margin: 20px;
     height: 170px;
     width: 432px;
@@ -66,16 +58,7 @@ body {
     align-items: center;
 }
 
-.cardbox2 {
-    margin: 20px;
-    height: 170px;
-    width: 432px;
-    border: 2px solid black;
-    border-radius: 3px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
+
 
 .cardinfo {
     margin-left: 10px;
@@ -98,9 +81,6 @@ h3 {
     margin-left: 20px;
 }
 
-.cardbox2 h3 {
-    margin-left: 20px;
-}
 input {
     width: 200px;
 }
