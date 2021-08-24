@@ -1,8 +1,7 @@
-var count = 0; // variable declare
-var countElement = document.querySelector("#count");
-
-function add1() {
-    count++;
-    countElement.innerHTML =   count + " like(s)";
-    console.log(count);
+function add1(element) {
+    var id = element.id;
+    var countElement = document.getElementById(id).innerHTML;
+    var count = countElement.substring(0,countElement.indexOf(" "));
+    count = parseInt(count) + 1;
+    document.getElementById(id).innerHTML = count + countElement.substring(countElement.indexOf(" "));
 }

@@ -9,44 +9,70 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
+
+#title {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    width: 850px;
+    background-color: black;
+    border-radius: 3px;
+    display: flex;
+    padding-left: 15px;
+    color: white;
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.bigbox {
+    display: flex;
+    gap: 20px;
+
+    padding: 20px;
+}
+
+.leftbox {
+
+    flex: 1;
+    border: 2px solid black;
+    width: 200px;
+    padding: 20px;
+    height: 270px;
+    text-align: center;
+}
+
+.supercontainer {
+    flex: 2;
+
+    padding: 0px 15px;
+    width: auto;
 }
 
 .container {
-    margin: 20px;
     height: 150px;
-    width: 500px;
+    width: 450px;
     border: 2px solid black;
     border-radius: 3px;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    padding: 5px 15px;
+
+    margin-bottom: 10px;
 }
 
-p {
-    margin-left: 20px;
+.name {
+    flex:2;
 }
 
-h2 {
-    margin: 20px;
+.count {
+    flex:1.2;
 }
-
-
-.cardinfo {
-    padding: 0px 30%;
-}
-
-
-h3 {
-    display: inline-block;
-    background-color: #93c47c;
-}
-
-input {
-    width: 200px;
-}
-
-
-
 
 .likes {
     height: 30px;
@@ -55,6 +81,8 @@ input {
     background-color: #fed966;
     border: 2px solid black;
     box-shadow: 3px 3px black;
+    align-self: right;
+    flex: 1;
 
 }
 
@@ -62,12 +90,53 @@ input {
     justify-content: space-around;
     align-items: top;
     height: 100px;
+    width: auto;
+
+}
+
+.avatar {
+    margin: 25px 0px;
+    display: block;
+
+}
+
+.logo {
+    width: 100px;
+
 }
 
 .flexy {
     display: flex;
+
 }
 
 h4 {
     margin: 22px 50px;
+}
+
+p {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+h2 {
+    margin: 20px;
+}
+
+.James {
+    margin: 0px;
+}
+
+.cardinfo {
+    padding: 0px 30%;
+}
+
+
+h3 {
+    display: inline-block;
+
+}
+
+input {
+    width: 200px;
 }
